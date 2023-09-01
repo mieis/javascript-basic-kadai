@@ -1,6 +1,7 @@
 const suquare = (num) => {
     console.log('numは' + num + 'です');
-    return num * num;
+    const numSquare = num * num;
+    return numSquare;
 }
 
 console.log(suquare(5));
